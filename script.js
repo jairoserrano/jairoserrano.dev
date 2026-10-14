@@ -34,8 +34,8 @@ const translations = {
     metric_savio_sub: "LMS & Analítica Educativa",
     metric_ieee_label: "IEEE Senior Member",
     metric_ieee_sub: "Reconocimiento de Excelencia",
-    metric_years_label: "15+ Años de Experiencia",
-    metric_years_sub: "Academia, Industria & Tech",
+    metric_years_label: "25 Años de Experiencia",
+    metric_years_sub: "Desde 2001 en Academia & Tech",
 
     // Leadership
     tag_leadership: "Trayectoria & Dirección",
@@ -155,8 +155,8 @@ const translations = {
     metric_savio_sub: "LMS & Learning Analytics",
     metric_ieee_label: "IEEE Senior Member",
     metric_ieee_sub: "Professional Excellence",
-    metric_years_label: "15+ Years Experience",
-    metric_years_sub: "Academia, Industry & Tech",
+    metric_years_label: "25 Years Experience",
+    metric_years_sub: "Since 2001 in Academia & Tech",
 
     // Leadership
     tag_leadership: "Leadership & Direction",
