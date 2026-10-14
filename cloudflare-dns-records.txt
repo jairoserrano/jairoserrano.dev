@@ -1,0 +1,19 @@
+;; Zone file for jairoserrano.dev (GitHub Pages)
+;; BIND format compatible with Cloudflare DNS Import
+$ORIGIN jairoserrano.dev.
+$TTL 3600
+
+;; Apex A Records (IPv4 for GitHub Pages)
+jairoserrano.dev.    3600    IN    A    185.199.108.153
+jairoserrano.dev.    3600    IN    A    185.199.109.153
+jairoserrano.dev.    3600    IN    A    185.199.110.153
+jairoserrano.dev.    3600    IN    A    185.199.111.153
+
+;; Apex AAAA Records (IPv6 for GitHub Pages)
+jairoserrano.dev.    3600    IN    AAAA    2606:50c0:8000::153
+jairoserrano.dev.    3600    IN    AAAA    2606:50c0:8001::153
+jairoserrano.dev.    3600    IN    AAAA    2606:50c0:8002::153
+jairoserrano.dev.    3600    IN    AAAA    2606:50c0:8003::153
+
+;; www Subdomain (CNAME for GitHub Pages alternate name)
+www.jairoserrano.dev.    3600    IN    CNAME    jairoserrano.github.io.
