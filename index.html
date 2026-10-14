@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jairo Serrano Castañeda, PhD · Academic Director & AI Researcher</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Sitio web oficial del Dr. Jairo Enrique Serrano Castañeda. Director Académico, Investigador en Simulación Social Basada en Agentes (ABSS), Inteligencia Artificial, MicroLLMs y EdTech. Cartagena, Colombia.">
+  <meta name="keywords" content="Jairo Serrano, Jairo Enrique Serrano Castañeda, UTB, Javeriana, Agent-Based Social Simulation, ABSS, WellProdSim, MicroLLMs, EdTech, SAVIO, Artificial Intelligence, Cartagena">
+  <meta name="author" content="Jairo Enrique Serrano Castañeda">
+  <link rel="canonical" href="https://jairoserrano.dev/">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jairoserrano.dev/">
+  <meta property="og:title" content="Jairo Serrano Castañeda, PhD · Academic Director & AI Researcher">
+  <meta property="og:description" content="PhD in Systems & Computing. Research in Multi-Agent Systems, MicroLLMs, and Technology-Mediated Education. Academic Director at UTB.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/285757?v=4">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://jairoserrano.dev/">
+  <meta property="twitter:title" content="Jairo Serrano Castañeda, PhD · Academic Director & AI Researcher">
+  <meta property="twitter:description" content="PhD in Systems & Computing. Research in Multi-Agent Systems, MicroLLMs, and Technology-Mediated Education.">
+  <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/285757?v=4">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/285757?v=4">
+
+  <!-- Google Fonts: Inter, Outfit, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD Structured Data for Academic/Researcher SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jairo Enrique Serrano Castañeda",
+    "alternateName": "Jairo Serrano",
+    "url": "https://jairoserrano.dev",
+    "image": "https://avatars.githubusercontent.com/u/285757?v=4",
+    "jobTitle": "Academic Director & Associate Professor",
+    "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "Universidad Tecnológica de Bolívar",
+      "url": "https://www.utb.edu.co"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Pontificia Universidad Javeriana"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universitat Oberta de Catalunya"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidad Tecnológica de Bolívar"
+      }
+    ],
+    "honorificPrefix": "Dr.",
+    "honorificSuffix": "PhD, Senior Member IEEE",
+    "sameAs": [
+      "https://github.com/jairoserrano",
+      "https://orcid.org/0000-0001-8165-7343",
+      "https://scholar.google.com/citations?user=rW2nV5cAAAAJ",
+      "https://www.scopus.com/authid/detail.uri?authorId=57220927199"
+    ],
+    "knowsAbout": [
+      "Agent-Based Social Simulation",
+      "Artificial Intelligence",
+      "MicroLLMs",
+      "Educational Technology",
+      "Software Architecture",
+      "High Performance Computing",
+      "Photovoltaic Monitoring"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Background Ambient Glow Orbs -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+
+  <!-- Header / Navigation Dock -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo" aria-label="Jairo Serrano - Inicio">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+        <span class="brand-text">jairoserrano<span class="domain">.dev</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Nav Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link" data-i18n="nav_about">Sobre mí</a></li>
+        <li><a href="#leadership" class="nav-link" data-i18n="nav_leadership">Liderazgo</a></li>
+        <li><a href="#research" class="nav-link" data-i18n="nav_research">Investigación</a></li>
+        <li><a href="#publications" class="nav-link" data-i18n="nav_publications">Publicaciones</a></li>
+        <li><a href="#projects" class="nav-link" data-i18n="nav_projects">Proyectos</a></li>
+        <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Stack</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contacto</a></li>
+      </ul>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Language Switcher Button -->
+        <button id="langToggle" class="btn-icon lang-switch" aria-label="Cambiar idioma">
+          <span>🌐</span> <span>ES</span>
+        </button>
+
+        <!-- Theme Toggle Button -->
+        <button id="themeToggle" class="btn-icon" aria-label="Cambiar tema de color">
+          <!-- Icon injected by script.js -->
+        </button>
+
+        <!-- GitHub Profile Link -->
+        <a href="https://github.com/jairoserrano" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="Perfil de GitHub">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuToggle" class="btn-icon mobile-toggle" aria-label="Abrir menú">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="about">
+    <div class="container hero-grid">
+      <!-- Left Column: Bio & Core Info -->
+      <div class="hero-content">
+        <div class="hero-badge-wrap">
+          <span class="status-badge">
+            <span class="status-dot"></span>
+            <span data-i18n="status_available">Disponible para investigación, conferencias y proyectos</span>
+          </span>
+        </div>
+
+        <h1 class="hero-title">
+          Jairo Serrano <span class="gradient-text">Castañeda</span>, PhD
+        </h1>
+
+        <p class="hero-subtitle" data-i18n="hero_role">
+          Director Académico • Emprendedor Tech • Investigador en IA & Multi-Agentes
+        </p>
+
+        <p class="hero-bio" data-i18n="hero_bio">
+          Doctor en Ingeniería de Sistemas y Computación (Pontificia Universidad Javeriana), Magíster en Software Libre (UOC) e Ingeniero de Sistemas (UTB). Apasionado por tender puentes entre la academia avanzada, la simulación social basada en agentes (ABSS), la Inteligencia Artificial y la educación mediada por tecnologías.
+        </p>
+
+        <!-- Call to Action Buttons -->
+        <div class="hero-actions">
+          <a href="#publications" class="btn btn-primary" data-i18n="btn_publications">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            Ver Publicaciones
+          </a>
+          <a href="#projects" class="btn btn-secondary" data-i18n="btn_projects">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            Explorar Proyectos
+          </a>
+          <button onclick="copyToClipboard('jairo.serrano@gmail.com', 'Email copiado: jairo.serrano@gmail.com')" class="btn btn-ghost" data-i18n="btn_copy_email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            Copiar Email
+          </button>
+          <a href="assets/jairo-serrano.vcf" download class="btn btn-ghost" data-i18n="btn_vcard">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Guardar Contacto
+          </a>
+        </div>
+
+        <!-- Verified Academic Profiles Bar -->
+        <div class="hero-profiles">
+          <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="profile-chip" title="ORCID ID">
+            <span style="color:#a6ce39; font-weight:bold;">iD</span> ORCID: 0000-0001-8165-7343
+          </a>
+          <a href="https://scholar.google.com/citations?user=rW2nV5cAAAAJ" target="_blank" rel="noopener noreferrer" class="profile-chip" title="Google Scholar">
+            <span>📚</span> Google Scholar
+          </a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=57220927199" target="_blank" rel="noopener noreferrer" class="profile-chip" title="Scopus Author ID">
+            <span style="color:#f59e0b; font-weight:bold;">Sc</span> Scopus Profile
+          </a>
+          <a href="https://github.com/jairoserrano" target="_blank" rel="noopener noreferrer" class="profile-chip" title="GitHub Profile">
+            <span>💻</span> GitHub @jairoserrano
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Interactive Profile & Data Card -->
+      <div class="hero-visual">
+        <div class="profile-card">
+          <div class="profile-avatar-wrap">
+            <img src="https://avatars.githubusercontent.com/u/285757?v=4" alt="Jairo Serrano Castañeda" class="profile-avatar" loading="eager">
+            <div class="floating-badge badge-top-left">
+              <span>🎓</span> PhD Javeriana
+            </div>
+            <div class="floating-badge badge-bottom-right">
+              <span>⚡</span> IEEE Senior Member
+            </div>
+          </div>
+
+          <!-- Terminal Style Data Card -->
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <span class="terminal-circle circle-red"></span>
+              <span class="terminal-circle circle-yellow"></span>
+              <span class="terminal-circle circle-green"></span>
+              <span class="terminal-title">serrano@academic-node: ~</span>
+            </div>
+            <div class="terminal-body">
+              <div><span class="t-key">location:</span> <span class="t-val">"Cartagena, Colombia 🇨🇴"</span></div>
+              <div><span class="t-key">institution:</span> <span class="t-val">"Univ. Tecnológica de Bolívar"</span></div>
+              <div><span class="t-key">doctoral_degree:</span> <span class="t-val">"PhD Systems & Computing"</span></div>
+              <div><span class="t-key">specialization_dir:</span> <span class="t-val">"Ingeniería de Software"</span></div>
+              <div><span class="t-key">joint_phd_coord:</span> <span class="t-val">"Énfasis en Computación"</span></div>
+              <div><span class="t-key">core_research:</span> <span class="t-arr">["ABSS", "MicroLLMs", "EdTech"]</span></div>
+              <div><span class="t-key">systems_impact:</span> <span class="t-val">"SAVIO LMS Founder"</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Metrics Strip -->
+  <section class="metrics-section" aria-label="Métricas de Impacto">
+    <div class="container">
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-num">PhD</div>
+          <div class="metric-label" data-i18n="metric_phd_label">Doctor en Ingeniería</div>
+          <div class="metric-sub" data-i18n="metric_phd_sub">Pontificia Univ. Javeriana</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">35+</div>
+          <div class="metric-label" data-i18n="metric_pubs_label">Publicaciones Científicas</div>
+          <div class="metric-sub" data-i18n="metric_pubs_sub">Scopus, IEEE & Springer</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">SAVIO</div>
+          <div class="metric-label" data-i18n="metric_savio_label">Ecosistema SAVIO</div>
+          <div class="metric-sub" data-i18n="metric_savio_sub">LMS & Analítica Educativa</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">Senior</div>
+          <div class="metric-label" data-i18n="metric_ieee_label">IEEE Senior Member</div>
+          <div class="metric-sub" data-i18n="metric_ieee_sub">Reconocimiento de Excelencia</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-num">15+</div>
+          <div class="metric-label" data-i18n="metric_years_label">15+ Años de Experiencia</div>
+          <div class="metric-sub" data-i18n="metric_years_sub">Academia, Industria & Tech</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Leadership & Graduate Programs Section -->
+  <section class="section-padding" id="leadership">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tag_leadership">Trayectoria & Dirección</span>
+        <h2 class="section-title" data-i18n="title_leadership">Liderazgo Académico & Gestión de Posgrados</h2>
+        <p class="section-desc" data-i18n="desc_leadership">
+          Impulsando la transformación de la educación superior y la investigación en ingeniería desde el Caribe Colombiano.
+        </p>
+      </div>
+
+      <div class="leadership-grid">
+        <!-- Role 1 -->
+        <div class="leadership-card">
+          <div class="card-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+          </div>
+          <div class="leadership-institution" data-i18n="lead_1_role">Universidad Tecnológica de Bolívar & UniCartagena</div>
+          <h3 class="leadership-title" data-i18n="lead_1_title">Coordinador Énfasis en Computación (Maestría & Doctorado)</h3>
+          <p class="leadership-desc" data-i18n="lead_1_desc">
+            Coordinación académica del énfasis en computación para los programas conjuntos de Maestría y Doctorado en Ingeniería, articulando líneas de investigación de frontera.
+          </p>
+          <div class="card-tags">
+            <span class="tag-badge">Doctorado en Ingeniería</span>
+            <span class="tag-badge">Maestría en Ingeniería</span>
+            <span class="tag-badge">Convenio UTB - UniCartagena</span>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="leadership-card">
+          <div class="card-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          </div>
+          <div class="leadership-institution" data-i18n="lead_2_role">Universidad Tecnológica de Bolívar</div>
+          <h3 class="leadership-title" data-i18n="lead_2_title">Director Especialización en Ingeniería de Software</h3>
+          <p class="leadership-desc" data-i18n="lead_2_desc">
+            Liderazgo directivo y curricular del programa de posgrado, formando profesionales especializados en arquitectura de software, DevOps y aseguramiento de calidad.
+          </p>
+          <div class="card-tags">
+            <span class="tag-badge">Software Architecture</span>
+            <span class="tag-badge">DevOps & Cloud</span>
+            <span class="tag-badge">Posgrado UTB</span>
+          </div>
+        </div>
+
+        <!-- Role 3 -->
+        <div class="leadership-card">
+          <div class="card-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+          </div>
+          <div class="leadership-institution" data-i18n="lead_3_role">Universidad Tecnológica de Bolívar</div>
+          <h3 class="leadership-title" data-i18n="lead_3_title">Líder de Creación: Maestría en Inteligencia Artificial</h3>
+          <p class="leadership-desc" data-i18n="lead_3_desc">
+            Liderando activamente el diseño y sustentación curricular de la nueva Maestría en Inteligencia Artificial, orientada a modelos generativos, visión artificial y agentes.
+          </p>
+          <div class="card-tags">
+            <span class="tag-badge">Curriculum Design</span>
+            <span class="tag-badge">Generative AI & LLMs</span>
+            <span class="tag-badge">Multi-Agent Systems</span>
+          </div>
+        </div>
+
+        <!-- Role 4 -->
+        <div class="leadership-card">
+          <div class="card-icon-wrap">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          </div>
+          <div class="leadership-institution" data-i18n="lead_4_role">Dirección de Educación Virtual UTB</div>
+          <h3 class="leadership-title" data-i18n="lead_4_title">Arquitecto Fundacional del Sistema SAVIO</h3>
+          <p class="leadership-desc" data-i18n="lead_4_desc">
+            Pionero en la adopción de software libre y arquitecturas abiertas (Moodle) para el despliegue del ecosistema institucional de aprendizaje interactivo de la UTB.
+          </p>
+          <div class="card-tags">
+            <span class="tag-badge">SAVIO Learning System</span>
+            <span class="tag-badge">Open Source LMS</span>
+            <span class="tag-badge">EdTech Architecture</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Areas Section -->
+  <section class="section-padding" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tag_research">Líneas de Investigación</span>
+        <h2 class="section-title" data-i18n="title_research">Fronteras Científicas & Computacionales</h2>
+        <p class="section-desc" data-i18n="desc_research">
+          Modelado computacional de sistemas complejos, toma de decisiones humanas e inteligencia artificial aplicada.
+        </p>
+      </div>
+
+      <div class="research-grid">
+        <!-- Area 1: ABSS & MicroLLMs -->
+        <div class="research-card">
+          <div class="research-header">
+            <div class="research-icon icon-blue">🤖</div>
+            <h3 class="research-title" data-i18n="res_1_title">Simulación Social (ABSS) & MicroLLMs</h3>
+          </div>
+          <p class="research-desc" data-i18n="res_1_desc">
+            Modelado de sistemas socioecológicos con agentes cognitivos BDI y emocionales (eBDI). Co-autor del simulador social WellProdSim para la resiliencia de familias rurales, y su integración con MicroLLMs y tableros en tiempo real.
+          </p>
+          <ul class="research-bullets">
+            <li>Modelos cognitivos BDI y eBDI (Emotional BDI)</li>
+            <li>Simulador social WellProdSim (terreno, tiempo y agentes)</li>
+            <li>Integración de MicroLLMs para toma de decisiones</li>
+            <li>Visualización en tiempo real (Console to Dashboard)</li>
+          </ul>
+        </div>
+
+        <!-- Area 2: AI, NLP & RAG -->
+        <div class="research-card">
+          <div class="research-header">
+            <div class="research-icon icon-purple">🧠</div>
+            <h3 class="research-title" data-i18n="res_2_title">Inteligencia Artificial, NLP & RAG</h3>
+          </div>
+          <p class="research-desc" data-i18n="res_2_desc">
+            Investigación en procesamiento de lenguaje natural y modelos de lenguaje. Participación en evaluaciones internacionales (CLEF 2025, eRisk, TalentCLEF, JOKER) en tareas de salud mental, ontologías laborales ESCO y clasificación colaborativa Humano-IA.
+          </p>
+          <ul class="research-bullets">
+            <li>Detección temprana de depresión (eRisk 2025)</li>
+            <li>Mapeo semántico de habilidades ESCO con Sentence Transformers</li>
+            <li>Predicción de preferencias humanas con RAG y DeBERTa</li>
+            <li>RoBERT-IA: Clasificación de texto Humano-IA</li>
+          </ul>
+        </div>
+
+        <!-- Area 3: EdTech & Analytics -->
+        <div class="research-card">
+          <div class="research-header">
+            <div class="research-icon icon-emerald">🎓</div>
+            <h3 class="research-title" data-i18n="res_3_title">Tecnología Educativa (EdTech) & Analítica</h3>
+          </div>
+          <p class="research-desc" data-i18n="res_3_desc">
+            Investigación en ambientes virtuales de aprendizaje adaptativo, perfilamiento de usuarios para formación corporativa y estrategias basadas en experimentación física y documentos vivos para la retención académica.
+          </p>
+          <ul class="research-bullets">
+            <li>Sistemas de aprendizaje interactivo (SAVIO UTB)</li>
+            <li>Perfilamiento de usuarios y estrategias adaptativas</li>
+            <li>Plataformas robóticas para docencia (YarpTp)</li>
+            <li>Documentos vivos para atracción y retención</li>
+          </ul>
+        </div>
+
+        <!-- Area 4: Solar Energy & IoT -->
+        <div class="research-card">
+          <div class="research-header">
+            <div class="research-icon icon-amber">☀️</div>
+            <h3 class="research-title" data-i18n="res_4_title">Energía Solar Fotovoltaica & Telemetría IoT</h3>
+          </div>
+          <p class="research-desc" data-i18n="res_4_desc">
+            Optimización tecnológica y monitorización en tiempo real de plantas solares fotovoltaicas y microinversores Hoymiles, integrando bases de datos de series de tiempo e interfaces de supervisión.
+          </p>
+          <ul class="research-bullets">
+            <li>Proxy y monitorización de inversores Hoymiles</li>
+            <li>Arquitecturas de series temporales (InfluxDB + Grafana)</li>
+            <li>Optimización de producción y análisis de degradación</li>
+            <li>Internet de las Cosas aplicada al sector energético</li>
+          </ul>
+        </div>
+
+        <!-- Area 5: Vision Transformers & Environmental Sensors -->
+        <div class="research-card">
+          <div class="research-header">
+            <div class="research-icon icon-blue">🌿</div>
+            <h3 class="research-title" data-i18n="res_5_title">Visión Artificial & Sensores Distribuidos</h3>
+          </div>
+          <p class="research-desc" data-i18n="res_5_desc">
+            Modelos de inferencia espacial con Vision Transformers para identificación de especies vegetales, sistemas de cámaras IoT con códigos QR y redes colaborativas de sensores ambientales.
+          </p>
+          <ul class="research-bullets">
+            <li>Inferencia en mosaico con Vision Transformers (ViT)</li>
+            <li>Redes de sensores colaborativas (AquApp)</li>
+            <li>Monitoreo de calidad de aire en Cartagena de Indias</li>
+            <li>Reconocimiento de patrones y objetos en borde (Edge AI)</li>
+          </ul>
+        </div>
+
+        <!-- Area 6: HPC & Cloud -->
+        <div class="research-card">
+          <div class="research-header">
+            <div class="research-icon icon-purple">⚡</div>
+            <h3 class="research-title" data-i18n="res_6_title">Computación de Alto Desempeño (HPC) & Cloud</h3>
+          </div>
+          <p class="research-desc" data-i18n="res_6_desc">
+            Diseño de servicios web RESTful e interfaces ubicuas (GridUI, HPCFront) para democratizar el acceso y orquestación de recursos de supercómputo y clústeres científicos.
+          </p>
+          <ul class="research-bullets">
+            <li>Portales web para laboratorios de supercómputo (HPCFront)</li>
+            <li>GridUI: Servicios RESTful para ejecución de jobs</li>
+            <li>Entornos de computación en la nube y DevOps con Ansible</li>
+            <li>Bases de datos modernas (Oracle 23ai + ORDS en Docker)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Publications Section -->
+  <section class="section-padding" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tag_publications">Producción Científica</span>
+        <h2 class="section-title" data-i18n="title_publications">Artículos & Conferencias Destacadas</h2>
+        <p class="section-desc" data-i18n="desc_publications">
+          Contribuciones indexadas en Scopus, IEEE Xplore, Springer y repositorios abiertos.
+        </p>
+      </div>
+
+      <!-- Publication Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn pub-filter-btn active" data-filter="all" data-i18n="filter_all">Todas</button>
+        <button class="filter-btn pub-filter-btn" data-filter="abss" data-i18n="filter_abss">Simulación Social & ABSS</button>
+        <button class="filter-btn pub-filter-btn" data-filter="ai" data-i18n="filter_ai">Inteligencia Artificial & NLP</button>
+        <button class="filter-btn pub-filter-btn" data-filter="edtech" data-i18n="filter_edtech">EdTech & Software Libre</button>
+        <button class="filter-btn pub-filter-btn" data-filter="systems" data-i18n="filter_systems">Sistemas, IoT & HPC</button>
+      </div>
+
+      <!-- Publications List -->
+      <div class="publications-list">
+        <!-- Pub 1 -->
+        <article class="pub-card" data-category="abss">
+          <div class="pub-year-badge">
+            <div class="pub-year">2026</div>
+            <div class="pub-type">Springer</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">From Console to Dashboard: A Demonstration of Real-Time Visualization for Social Simulation with WellProdSim</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">Advances in Practical Applications of Agents, Multi-Agent Systems, and Social Good · Springer Nature</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@inproceedings{serrano2026consoletodashboard,
+  title={From Console to Dashboard: A Demonstration of Real-Time Visualization for Social Simulation with WellProdSim},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  booktitle={PAAMS 2026 Proceedings},
+  year={2026},
+  publisher={Springer Nature}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 2 -->
+        <article class="pub-card" data-category="abss">
+          <div class="pub-year-badge">
+            <div class="pub-year">2025</div>
+            <div class="pub-type">Journal</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">Agent-Based Social Simulator for Analyzing Well-Being and Resources: An Integrated Approach for Vulnerable Rural Communities</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">Simulation: Transactions of The Society for Modeling and Simulation International</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@article{serrano2025wellprodsim,
+  title={Agent-Based Social Simulator for Analyzing Well-Being and Resources: An Integrated Approach for Vulnerable Rural Communities},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  journal={Simulation},
+  year={2025}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 3: AI / Mental Health -->
+        <article class="pub-card" data-category="ai">
+          <div class="pub-year-badge">
+            <div class="pub-year">2025</div>
+            <div class="pub-type">CLEF 2025</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">COTECMAR-UTB at eRisk 2025: Semantic-Centroid Symptom Ranking and Early Depression Detection using Adaptive Decision Rules</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">Conference and Labs of the Evaluation Forum (CLEF 2025)</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@inproceedings{cotecmar_utb_erisk2025,
+  title={COTECMAR-UTB at eRisk 2025: Semantic-Centroid Symptom Ranking and Early Depression Detection using Adaptive Decision Rules},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  booktitle={Working Notes of CLEF 2025},
+  year={2025}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 4: AI / TalentCLEF -->
+        <article class="pub-card" data-category="ai">
+          <div class="pub-year-badge">
+            <div class="pub-year">2025</div>
+            <div class="pub-type">CLEF 2025</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">COTECMAR-UTB at TalentCLEF 2025: Linking Job Titles and ESCO Skills with Sentence Transformer Embeddings</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">TalentCLEF Working Notes · CEUR-WS</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@inproceedings{cotecmar_talentclef2025,
+  title={COTECMAR-UTB at TalentCLEF 2025: Linking Job Titles and ESCO Skills with Sentence Transformer Embeddings},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  booktitle={Working Notes of CLEF 2025},
+  year={2025}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 5: RoBERT-IA -->
+        <article class="pub-card" data-category="ai">
+          <div class="pub-year-badge">
+            <div class="pub-year">2025</div>
+            <div class="pub-type">Conference</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">RoBERT-IA: Human-AI Collaborative Text Classification</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">International Conference on Human-AI Interaction & NLP</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@article{robertia2025,
+  title={RoBERT-IA: Human-AI Collaborative Text Classification},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  year={2025}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 6: ViT Vegetation -->
+        <article class="pub-card" data-category="ai">
+          <div class="pub-year-badge">
+            <div class="pub-year">2025</div>
+            <div class="pub-type">Vision AI</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">Tiles-wise Inference with Vision Transformers for Multispecies Identification in Vegetation Images</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">Computer Vision and Ecological Informatics</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@article{tilesvit2025,
+  title={Tiles-wise Inference with Vision Transformers for Multispecies Identification in Vegetation Images},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  year={2025}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 7: Emotional BDI -->
+        <article class="pub-card" data-category="abss">
+          <div class="pub-year-badge">
+            <div class="pub-year">2024</div>
+            <div class="pub-type">Springer</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">Emotional BDI Model (eBDI) of the Peasants Families WellProdSim Social Simulator</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">Advances in Distributed Computing and Artificial Intelligence Journal</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@article{serrano2024ebdi,
+  title={Emotional BDI Model (eBDI) of the Peasants Families WellProdSim Social Simulator},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  journal={Advances in Distributed Computing and Artificial Intelligence Journal},
+  year={2024}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 8: BDI Peasants -->
+        <article class="pub-card" data-category="abss">
+          <div class="pub-year-badge">
+            <div class="pub-year">2023</div>
+            <div class="pub-type">Springer</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">BDI Peasants Model for the WellProdSim Agent-Based Social Simulator</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">Communications in Computer and Information Science (CCIS) · Springer</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@article{serrano2023bdipeasants,
+  title={BDI Peasants Model for the WellProdSim Agent-Based Social Simulator},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  journal={CCIS},
+  publisher={Springer},
+  year={2023}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 9: EdTech SAVIO -->
+        <article class="pub-card" data-category="edtech">
+          <div class="pub-year-badge">
+            <div class="pub-year">2020</div>
+            <div class="pub-type">EdTech</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">The experience of the Dirección de Educación Virtual de la UTB on the use of information technology in teaching: The SAVIO Interactive Virtual Learning System</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">Revista de Educación Virtual & Tecnología UTB</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> Ver
+            </a>
+            <button onclick="showBibtex(`@article{serrano2020savio,
+  title={The experience of the Direcci{\\'o}n de Educaci{\\'o}n Virtual de la UTB on the use of information technology in teaching: The SAVIO Interactive Virtual Learning System},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  year={2020}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 10: HPC GridUI -->
+        <article class="pub-card" data-category="systems">
+          <div class="pub-year-badge">
+            <div class="pub-year">2016</div>
+            <div class="pub-type">IEEE</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">GridUI, a RESTful web service and ubiquitous UI for accessing HPC resources</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">8th Euro American Conference on Telematics and Information Systems (EATIS) · IEEE</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://doi.org/10.1109/EATIS.2016.7520134" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> DOI
+            </a>
+            <button onclick="showBibtex(`@inproceedings{serrano2016gridui,
+  title={GridUI, a RESTful web service and ubiquitous UI for accessing HPC resources},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  booktitle={2016 8th Euro American Conference on Telematics and Information Systems (EATIS)},
+  pages={1--6},
+  year={2016},
+  organization={IEEE},
+  doi={10.1109/EATIS.2016.7520134}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+
+        <!-- Pub 11: AquApp Sensor -->
+        <article class="pub-card" data-category="systems">
+          <div class="pub-year-badge">
+            <div class="pub-year">2016</div>
+            <div class="pub-type">IEEE</div>
+          </div>
+          <div class="pub-main">
+            <h3 class="pub-title">AquApp, an information system for a collaborative sensor network</h3>
+            <p class="pub-authors">J. E. Serrano Castañeda, et al.</p>
+            <p class="pub-venue">11th Colombian Computing Conference (CCC) · IEEE</p>
+          </div>
+          <div class="pub-actions">
+            <a href="https://doi.org/10.1109/ColumbianCC.2016.7750784" target="_blank" rel="noopener noreferrer" class="btn-pill">
+              <span>📄</span> DOI
+            </a>
+            <button onclick="showBibtex(`@inproceedings{serrano2016aquapp,
+  title={AquApp, an information system for a collaborative sensor network},
+  author={Serrano Casta{\\~n}eda, Jairo Enrique and others},
+  booktitle={2016 IEEE 11th Colombian Computing Conference (CCC)},
+  year={2016},
+  organization={IEEE},
+  doi={10.1109/ColumbianCC.2016.7750784}
+}`)" class="btn-pill">
+              <span>📋</span> BibTeX
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects & Open Source Section -->
+  <section class="section-padding" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tag_projects">Código & Plataformas</span>
+        <h2 class="section-title" data-i18n="title_projects">Proyectos Destacados & Open Source</h2>
+        <p class="section-desc" data-i18n="desc_projects">
+          Soluciones de código abierto, simuladores y arquitecturas desarrolladas para investigación y docencia.
+        </p>
+      </div>
+
+      <!-- Project Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-btn proj-filter-btn active" data-filter="all" data-i18n="proj_filter_all">Todos</button>
+        <button class="filter-btn proj-filter-btn" data-filter="simulation" data-i18n="proj_filter_sim">Simulación & IA</button>
+        <button class="filter-btn proj-filter-btn" data-filter="edtech" data-i18n="proj_filter_edtech">EdTech & LMS</button>
+        <button class="filter-btn proj-filter-btn" data-filter="iot" data-i18n="proj_filter_iot">Solar & IoT</button>
+        <button class="filter-btn proj-filter-btn" data-filter="devops" data-i18n="proj_filter_devops">Cloud & DevOps</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: WellProdSim -->
+        <div class="project-card" data-category="simulation">
+          <div class="project-top">
+            <span class="project-folder-icon">🌾</span>
+            <div class="project-links">
+              <a href="https://github.com/jairoserrano/WellProdSim" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="Ver en GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">WellProdSim</h3>
+          <p class="project-desc">
+            Simulador socioecológico y territorial para modelar el crecimiento vegetal basado en evapotranspiración y la dinámica de bienestar de familias campesinas con agentes BDI.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>ABSS</span>
+            <span>BDI Architecture</span>
+            <span>Simulation</span>
+          </div>
+        </div>
+
+        <!-- Project 2: wpsllm -->
+        <div class="project-card" data-category="simulation">
+          <div class="project-top">
+            <span class="project-folder-icon">🤖</span>
+            <div class="project-links">
+              <a href="https://github.com/jairoserrano/wpsllm" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="Ver en GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">wpsllm</h3>
+          <p class="project-desc">
+            Integración de modelos de lenguaje ligeros (MicroLLMs) en agentes autónomos de simulación social para deliberación contextual y toma de decisiones cognitivas.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>MicroLLMs</span>
+            <span>Multi-Agent</span>
+            <span>RAG</span>
+          </div>
+        </div>
+
+        <!-- Project 3: SAVIO Learning Ecosystem -->
+        <div class="project-card" data-category="edtech">
+          <div class="project-top">
+            <span class="project-folder-icon">🎓</span>
+            <div class="project-links">
+              <a href="https://savio.utb.edu.co" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="Sitio Oficial SAVIO">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">SAVIO Learning Ecosystem</h3>
+          <p class="project-desc">
+            Diseño arquitectónico e implementación fundacional del Sistema de Aprendizaje Virtual Interactivo de la Universidad Tecnológica de Bolívar basado en Moodle y tecnologías libres.
+          </p>
+          <div class="project-tech">
+            <span>Moodle LMS</span>
+            <span>PHP</span>
+            <span>Linux</span>
+            <span>Learning Analytics</span>
+          </div>
+        </div>
+
+        <!-- Project 4: hoymiles-proxy -->
+        <div class="project-card" data-category="iot">
+          <div class="project-top">
+            <span class="project-folder-icon">☀️</span>
+            <div class="project-links">
+              <a href="https://github.com/jairoserrano/hoymiles-proxy" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="Ver en GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">hoymiles-proxy</h3>
+          <p class="project-desc">
+            Proxy de comunicación y telemetría en tiempo real para inversores solares Hoymiles, facilitando la extracción de métricas de potencia y almacenamiento en bases de datos analíticas.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Solar Energy</span>
+            <span>IoT</span>
+            <span>Telemetry</span>
+          </div>
+        </div>
+
+        <!-- Project 5: local-apex-dev -->
+        <div class="project-card" data-category="devops">
+          <div class="project-top">
+            <span class="project-folder-icon">🐳</span>
+            <div class="project-links">
+              <a href="https://github.com/jairoserrano/local-apex-dev" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="Ver en GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">local-apex-dev</h3>
+          <p class="project-desc">
+            Entorno contenedorizado en Docker para desarrollo local rápido con Oracle APEX, Oracle Database 23ai y Oracle REST Data Services (ORDS).
+          </p>
+          <div class="project-tech">
+            <span>Docker</span>
+            <span>Oracle 23ai</span>
+            <span>APEX</span>
+            <span>ORDS</span>
+          </div>
+        </div>
+
+        <!-- Project 6: HPCFront & GridUI -->
+        <div class="project-card" data-category="devops">
+          <div class="project-top">
+            <span class="project-folder-icon">💻</span>
+            <div class="project-links">
+              <a href="https://github.com/jairoserrano/HPCFront" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="Ver en GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">HPCFront & HPCLabWebRunner</h3>
+          <p class="project-desc">
+            Portal web y Cloud IDE interactivo para el laboratorio de computación de alto desempeño de la UTB, simplificando la ejecución distribuida de simulaciones científicas.
+          </p>
+          <div class="project-tech">
+            <span>PHP / Node</span>
+            <span>HPC</span>
+            <span>Slurm</span>
+            <span>Web IDE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack & Skills Matrix Section -->
+  <section class="section-padding" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tag_skills">Capacidades Técnicas</span>
+        <h2 class="section-title" data-i18n="title_skills">Stack Tecnológico & Metodologías</h2>
+        <p class="section-desc" data-i18n="desc_skills">
+          Herramientas y tecnologías aplicadas en investigación, docencia y desarrollo de software empresarial.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Col 1: Languages -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title" data-i18n="cat_languages">
+            <span>💻</span> Lenguajes & Frameworks
+          </h3>
+          <div class="skill-badges">
+            <span class="skill-item">Python</span>
+            <span class="skill-item">FastAPI</span>
+            <span class="skill-item">PHP</span>
+            <span class="skill-item">TypeScript / JS</span>
+            <span class="skill-item">NestJS</span>
+            <span class="skill-item">Next.js</span>
+            <span class="skill-item">Flutter / Dart</span>
+            <span class="skill-item">SQL / PL-SQL</span>
+            <span class="skill-item">Bash / Shell</span>
+          </div>
+        </div>
+
+        <!-- Col 2: AI & Simulation -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title" data-i18n="cat_ai">
+            <span>🤖</span> IA, Modelado & Simulación
+          </h3>
+          <div class="skill-badges">
+            <span class="skill-item">Agent-Based Social Sim (ABSS)</span>
+            <span class="skill-item">BDI & eBDI Cognitive Models</span>
+            <span class="skill-item">MicroLLMs & Transformers</span>
+            <span class="skill-item">RAG & Few-Shot Prompting</span>
+            <span class="skill-item">Vision Transformers (ViT)</span>
+            <span class="skill-item">DeBERTa & Sentence Transformers</span>
+            <span class="skill-item">BESA Multiagent Framework</span>
+          </div>
+        </div>
+
+        <!-- Col 3: Cloud & DevOps -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title" data-i18n="cat_infra">
+            <span>☁️</span> Infraestructura & Cloud
+          </h3>
+          <div class="skill-badges">
+            <span class="skill-item">Docker & Docker Compose</span>
+            <span class="skill-item">Kubernetes</span>
+            <span class="skill-item">Ansible (IaC)</span>
+            <span class="skill-item">Linux Systems Administration</span>
+            <span class="skill-item">HPC Clusters (Slurm)</span>
+            <span class="skill-item">Git / GitHub Actions CI/CD</span>
+            <span class="skill-item">Nginx / Reverse Proxies</span>
+          </div>
+        </div>
+
+        <!-- Col 4: EdTech & IoT -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title" data-i18n="cat_edtech">
+            <span>🎓</span> EdTech, Datos & IoT
+          </h3>
+          <div class="skill-badges">
+            <span class="skill-item">Moodle LMS Architecture</span>
+            <span class="skill-item">SAVIO Learning Platform</span>
+            <span class="skill-item">Adaptive Learning Models</span>
+            <span class="skill-item">Hoymiles Solar Telemetry</span>
+            <span class="skill-item">InfluxDB & Grafana</span>
+            <span class="skill-item">Oracle 23ai & APEX</span>
+            <span class="skill-item">Hyperledger Fabric Blockchain</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Collaboration Section -->
+  <section class="section-padding" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tag_contact">Conversemos</span>
+        <h2 class="section-title" data-i18n="title_contact">Contacto & Colaboración</h2>
+        <p class="section-desc" data-i18n="desc_contact">
+          ¿Interesado en colaborar en investigación, conferencias, dirección de posgrados o consultoría tecnológica?
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Card -->
+        <div class="contact-card-main">
+          <!-- Institutional Email -->
+          <div class="contact-item">
+            <div class="contact-icon">🏛️</div>
+            <div class="contact-info">
+              <h4 data-i18n="contact_inst_email">Correo Institucional</h4>
+              <div class="contact-value">
+                <a href="mailto:jserrano@utb.edu.co">jserrano@utb.edu.co</a>
+                <button class="copy-btn" onclick="copyToClipboard('jserrano@utb.edu.co', 'Email copiado: jserrano@utb.edu.co')" title="Copiar correo">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Email -->
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-info">
+              <h4 data-i18n="contact_pers_email">Correo Personal</h4>
+              <div class="contact-value">
+                <a href="mailto:jairo.serrano@gmail.com">jairo.serrano@gmail.com</a>
+                <button class="copy-btn" onclick="copyToClipboard('jairo.serrano@gmail.com', 'Email copiado: jairo.serrano@gmail.com')" title="Copiar correo">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-info">
+              <h4 data-i18n="contact_location">Ubicación</h4>
+              <div class="contact-value">
+                <span>Cartagena de Indias, Colombia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Collaboration Topics -->
+        <div class="collab-options">
+          <div class="collab-box" onclick="location.href='mailto:jserrano@utb.edu.co?subject=Colaboraci%C3%B3n%20en%20Investigaci%C3%B3n'">
+            <div class="collab-title">
+              <span>🔬</span> <span data-i18n="collab_research">Investigación & Publicaciones Conjuntas</span>
+            </div>
+            <p class="collab-desc" data-i18n="collab_research_desc">Sistemas multiagente, modelos LLM/RAG y simulación social.</p>
+          </div>
+
+          <div class="collab-box" onclick="location.href='mailto:jairo.serrano@gmail.com?subject=Invitaci%C3%B3n%20a%20Conferencia%20o%20Charla'">
+            <div class="collab-title">
+              <span>🎤</span> <span data-i18n="collab_talks">Conferencias, Charlas & Workshops</span>
+            </div>
+            <p class="collab-desc" data-i18n="collab_talks_desc">Inteligencia Artificial, EdTech, Cloud Computing y Arquitectura de Software.</p>
+          </div>
+
+          <div class="collab-box" onclick="location.href='mailto:jserrano@utb.edu.co?subject=Consulta%20sobre%20Posgrados%20o%20Tesis'">
+            <div class="collab-title">
+              <span>🎓</span> <span data-i18n="collab_academic">Asesoría Académica & Posgrados</span>
+            </div>
+            <p class="collab-desc" data-i18n="collab_academic_desc">Tesis doctorales, maestrías y dirección de programas de software.</p>
+          </div>
+
+          <div class="collab-box" onclick="location.href='mailto:jairo.serrano@gmail.com?subject=Consultor%C3%ADa%20Tecnol%C3%B3gica'">
+            <div class="collab-title">
+              <span>💡</span> <span data-i18n="collab_tech">Consultoría e Innovación Tecnológica</span>
+            </div>
+            <p class="collab-desc" data-i18n="collab_tech_desc">Sistemas solares, plataformas de educación virtual y entornos cloud/HPC.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 0.5rem;">
+            <div class="brand-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <span class="brand-text">jairoserrano<span class="domain">.dev</span></span>
+          </div>
+          <p class="footer-quote" data-i18n="footer_quote">
+            "Transformando la educación y la tecnología desde el Caribe Colombiano."
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <ul class="footer-links">
+            <li><a href="#about" data-i18n="nav_about">Sobre mí</a></li>
+            <li><a href="#leadership" data-i18n="nav_leadership">Liderazgo</a></li>
+            <li><a href="#research" data-i18n="nav_research">Investigación</a></li>
+            <li><a href="#publications" data-i18n="nav_publications">Publicaciones</a></li>
+            <li><a href="#projects" data-i18n="nav_projects">Proyectos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Perfiles Científicos</h4>
+          <ul class="footer-links">
+            <li><a href="https://orcid.org/0000-0001-8165-7343" target="_blank" rel="noopener noreferrer">ORCID Registry</a></li>
+            <li><a href="https://scholar.google.com/citations?user=rW2nV5cAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+            <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57220927199" target="_blank" rel="noopener noreferrer">Scopus Author ID</a></li>
+            <li><a href="https://github.com/jairoserrano" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Dr. Jairo Enrique Serrano Castañeda. <span data-i18n="footer_rights">Todos los derechos reservados. Desplegado en GitHub Pages.</span></div>
+        <div>
+          <a href="#about">Volver arriba ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BibTeX Modal -->
+  <div id="bibtexModal" class="modal-overlay" aria-hidden="true" role="dialog">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 style="font-size: 1.1rem; font-weight: 700;">BibTeX Citation</h3>
+        <button id="closeBibtexModal" class="btn-icon" aria-label="Cerrar modal" style="width:32px; height:32px;">✕</button>
+      </div>
+      <div class="modal-body">
+        <pre id="bibtexCode" class="modal-code"></pre>
+        <div style="display:flex; justify-content:flex-end; margin-top:1.25rem;">
+          <button id="copyBibtexBtn" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+            <span>📋</span> Copiar BibTeX
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>

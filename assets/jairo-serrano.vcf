@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Serrano Castañeda;Jairo;Enrique;Dr.;
+FN:Dr. Jairo Enrique Serrano Castañeda
+ORG:Universidad Tecnológica de Bolívar (UTB)
+TITLE:Academic Director & Professor | PhD in Engineering
+EMAIL;type=INTERNET;type=WORK:jserrano@utb.edu.co
+EMAIL;type=INTERNET;type=HOME:jairo.serrano@gmail.com
+URL;type=WORK:https://jairoserrano.dev
+URL;type=GitHub:https://github.com/jairoserrano
+URL;type=Scholar:https://scholar.google.com/citations?user=rW2nV5cAAAAJ
+ADR;type=WORK:;;Parque Industrial y Tecnológico Carlos Vélez Pombo Km 1 Vía Turbaco;Cartagena;Bolívar;;Colombia
+NOTE:PhD in Engineering (Systems and Computing) - Pontificia Universidad Javeriana. Senior Member IEEE. Research in Agent-Based Social Simulation (ABSS), AI & MicroLLMs, and EdTech.
+END:VCARD
